@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .container{
     display: flex;
     height: 100vh;
@@ -10,6 +13,7 @@
     margin: 2em 0px;
     width: 100%;
     max-width: 600px;
+    flex-grow: 0;
 }
 .catimg{
     flex-grow: 1;
