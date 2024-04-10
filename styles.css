@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: beige;
+}
+.tittle{
+    margin: 2em 0px;
+    width: 100%;
+    max-width: 600px;
+}
+.catimg{
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    max-width: 800;
+
+    font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: blackw;
+
+    background-image: url("imgs/p.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
